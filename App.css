@@ -1,0 +1,130 @@
+/* BODY rule includes values for background-color */
+body {
+  background-color: darkblue;
+  color: darkslategrey;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 10px;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+/* PAGE LAYOUT 
+Consistant design for each page layout block. 
+*/
+
+header,
+main,
+article,
+footer {
+  background-color: darkblue;
+  color: darkslategray;
+  border: none;
+  font-size: 20px;
+  font-weight: normal;
+  margin: 5px;
+  padding: 5px;
+}
+
+/* NAVIGATION
+Simple changes to make anchors look like buttons. 
+*/
+nav {
+  background-color: darkblue;
+  color: wheat;
+  font-size: 15px;
+  font-weight: normal;
+  border-spacing: 1em;
+  align-items: center;
+  text-align: center;
+  margin: 1px;
+  padding: 1px;
+  text-decoration: none;
+  vertical-align: 1em;
+}
+nav a {
+  color: wheat;
+  font-size: 20px;
+  font-weight: bold;
+}
+nav a:hover {
+  color: rgb(188, 94, 247);
+}
+
+/* TABLE */
+table {
+  margin: 0 auto;
+  background-color: lightgray;
+  border-collapse: collapse;
+  border: none;
+  padding: 5px;
+}
+caption {
+  color: wheat;
+}
+tr td,
+td th {
+  color: black;
+}
+tr:nth-child(even) {
+  background-color: grey;
+}
+th {
+  background-color: blanchedalmond;
+}
+
+/* FORM */
+fieldset {
+  align-items: center;
+}
+legend {
+  color: wheat;
+}
+select {
+  background-color: darkblue;
+  color: darkslategrey;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 10px;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+label {
+  color: wheat;
+  display: block;
+}
+input {
+  background-color: wheat;
+  color: darkslategrey;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 10px;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+article {
+  align-items: center;
+  text-align: center;
+}
+button {
+  background-color: wheat;
+  color: darkslategrey;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 10px;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+button:hover {
+  background-color: lightgray;
+}
+
+h1,
+h2,
+p {
+  color: wheat;
+}
